@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="navbar-jobs">
+        <a href="./index.html">
+        <img
+          src="https://www.hiringmine.com/assets/Hiring%20Mine%20Logo-453a72d3.png"
+          alt="Logo"
+        /></a>
+        <div class="search-bar">
+            <div class="search-category">
+                <span>Jobs</span>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+            <input type="text" placeholder="Search Job titles or companies">
+            <div class="search-icon">
+                <i class="fas fa-search"></i>
+            </div>
+        </div>
+        <label class="toggle-switch">
+            <input type="checkbox" id="toggle-button" />
+            <span class="slider round"></span>
+          </label>
+        </div>
+        
+<div class="filter-container">
+    <button class="filter-button">Category ▼</button>
+    <button class="filter-button">Date Posted ▼</button>
+    <button class="filter-button">Job Type ▼</button>
+    <button class="filter-button">Seniority Level ▼</button>
+    <button class="filter-button">On-Site/Remote ▼</button>
+    <button class="filter-button">Salary Range ▼</button>
+    <button class="filter-button">Experience ▼</button>
+  </div>
+<!-- 
+                <div class="filter-container">
+                    <div class="filter-button">
+                        <span>Category</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="dropdown-content">
+                        <label><input type="checkbox"> Development</label>
+                        <label><input type="checkbox"> Marketing & Sales</label>
+                        <label><input type="checkbox"> Art & Illustration</label>
+                        <div class="dropdown-actions">
+                            <a href="#" class="clear">Clear</a>
+                            <button class="show-results">Show Results</button>
+                        </div>
+                    </div>
+                    <div class="filter-button">
+                        <span>Category</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="dropdown-content">
+                        <label><input type="checkbox"> Development</label>
+                        <label><input type="checkbox"> Marketing & Sales</label>
+                        <label><input type="checkbox"> Art & Illustration</label>
+                        <div class="dropdown-actions">
+                            <a href="#" class="clear">Clear</a>
+                            <button class="show-results">Show Results</button>
+                        </div>
+                    </div>
+
+                    <div class="filter-button">
+                        <span>Category</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="dropdown-content">
+                        <label><input type="checkbox"> Development</label>
+                        <label><input type="checkbox"> Marketing & Sales</label>
+                        <label><input type="checkbox"> Art & Illustration</label>
+                        <div class="dropdown-actions">
+                            <a href="#" class="clear">Clear</a>
+                            <button class="show-results">Show Results</button>
+                        </div>
+                    </div>
+                    <div class="filter-button">
+                        <span>Category</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="dropdown-content">
+                        <label><input type="checkbox"> Development</label>
+                        <label><input type="checkbox"> Marketing & Sales</label>
+                        <label><input type="checkbox"> Art & Illustration</label>
+                        <div class="dropdown-actions">
+                            <a href="#" class="clear">Clear</a>
+                            <button class="show-results">Show Results</button>
+                        </div>
+                    </div>
+                    <div class="filter-button">
+                        <span>Category</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="dropdown-content">
+                        <label><input type="checkbox"> Development</label>
+                        <label><input type="checkbox"> Marketing & Sales</label>
+                        <label><input type="checkbox"> Art & Illustration</label>
+                        <div class="dropdown-actions">
+                            <a href="#" class="clear">Clear</a>
+                            <button class="show-results">Show Results</button>
+                        </div>
+                    </div>
+                    <div class="filter-button">
+                        <span>Category</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="dropdown-content">
+                        <label><input type="checkbox"> Development</label>
+                        <label><input type="checkbox"> Marketing & Sales</label>
+                        <label><input type="checkbox"> Art & Illustration</label>
+                        <div class="dropdown-actions">
+                            <a href="#" class="clear">Clear</a>
+                            <button class="show-results">Show Results</button>
+                        </div>
+                    </div>
+                    <div class="filter-button">
+                        <span>Category</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="dropdown-content">
+                        <label><input type="checkbox"> Development</label>
+                        <label><input type="checkbox"> Marketing & Sales</label>
+                        <label><input type="checkbox"> Art & Illustration</label>
+                        <div class="dropdown-actions">
+                            <a href="#" class="clear">Clear</a>
+                            <button class="show-results">Show Results</button>
+                        </div>
+                    </div>
+                    <div class="filter-button">
+                        <span>Category</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="dropdown-content">
+                        <label><input type="checkbox"> Development</label>
+                        <label><input type="checkbox"> Marketing & Sales</label>
+                        <label><input type="checkbox"> Art & Illustration</label>
+                        <div class="dropdown-actions">
+                            <a href="#" class="clear">Clear</a>
+                            <button class="show-results">Show Results</button>
+                        </div>
+                    </div>
+                </div> -->
+        </div>
+    </div>
+    <section class="latest-jobs">
+        <!-- <p>Latest And Top</p> <span class="text1"> Job Openings</span> -->
+        <div id="job-container"></div>
+        <div id="cards">
+            <!-- <div id="card">
+                <div id="header">
+                    <p id="company">Onscreen Solution</p>
+                    <img id="logo" src="logo.png" alt="Company Logo">
+                </div>
+
+                <h3 id="position"><b>Animator</b></h3>
+                <p id="salary">No Salary Mentioned</p>
+
+                <div id="Body">
+                  <p id="location">Karachi, Pakistan</p>
+                  <p id="views">59 views</p>
+                </div>
+                
+                <div id="footer">
+                  <p id="time">5 hours ago</p>
+                  <p id="poster">posted by <span id="poster-name">Hasan</span></p>
+                </div>
+              </div> -->
+
+                <!-- <div id="card">
+                  <div id="header">
+                      <p id="company">Onscreen Solution</p>
+                      <img id="logo" src="logo.png" alt="Company Logo">
+                  </div>
+  
+                  <h3 id="position"><b>Animator</b></h3>
+                  <p id="salary">No Salary Mentioned</p>
+  
+                  <div id="Body">
+                    <p id="location">Karachi, Pakistan</p>
+                    <p id="views">59 views</p>
+                  </div>
+  
+                  <div id="footer">
+                      <p id="time">5 hours ago</p>
+                      <p id="poster">posted by <span id="poster-name">Hasan</span></p>
+                  </div> -->
+            </div>
+        </div>   
+    </section>
+  </section>
+</body>
+<script src="./app.js"></script>
+</html>
